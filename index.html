@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAWL STARS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(images/bablekvas.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: #000;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .nav-button {
+            display: inline-block;
+            height: 200px;
+            background-color: rgba(255, 235, 19, 0.5);
+            border-radius: 70px;
+            text-align: center;
+            line-height: 200px;
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+            width: 48%;
+        }
+        div{
+            width: 100%;
+        }
+
+        p {
+            background-color: rgba(230, 255, 230, 0.5);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .brawler-category {
+            background-color: rgba(31, 255, 31, 0.5);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        .brawler-category img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin: 5px;
+        }
+
+
+        @media (max-width: 768px) {
+            .nav-button {
+                width: 100%;
+                height: auto;
+                line-height: normal;
+                padding: 20px 0;
+            }
+
+            .brawler-category img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-div">
+        <a href="page2.html" class="nav-button">Карти гри</a>
+        <a href="page3.html" class="nav-button">Ресурси</a>
+        </div>
+    </header>
+    <main>
+    <p>
+        Brawl Stars — це багатокористувацька мобільна гра від компанії Supercell, у якій гравці беруть участь у динамічних боях 3 на 3 або в інших режимах. Кожен гравець керує унікальним персонажем — бравлером, який має особливі здібності. У грі доступні різні режими: захоплення кристалів, королівська битва, зіткнення, футбольний режим та інші. Гра відзначається швидким геймплеєм, яскравою графікою та постійними оновленнями з новими бравлерами, картами і подіями.
+    </p>
+
+        <p>
+            У грі Brawl Stars представлено багато різноманітних персонажів, які називаються бравлери. Кожен бравлер має унікальні характеристики: рівень здоров’я, основну атаку, суперздібність (ульту), гаджети та зіркові сили. Бравлерів поділено на класи залежно від стилю гри:
+        </p>
+
+        <div class="brawler-category">
+            <img src="images/elPrimo.jpg" alt="El Primo">
+            <img src="images/frank.jpg" alt="Frank">
+            <img src="images/buzz.jpg" alt="Buzz">
+            <p>
+                Важковаговики (Танки) – мають багато здоров’я і підходять для ближнього бою. Наприклад: El Primo, Frank, Buzz.
+            </p>
+        </div>
+
+        <div class="brawler-category">
+            <img src="images/Untitled.jpg" alt="Piper">
+            <img src="images/baeron.jpg" alt="Byron">
+            <p>
+                Снайпери (Дальній бій) – завдають шкоди з великої відстані. Наприклад: Piper, Byron.
+            </p>
+        </div>
+
+        <div class="brawler-category">
+            <img src="images/leon.jpg" alt="Leon">
+            <img src="images/crow.jpg" alt="Crow">
+            <img src="images/mortis.jpg" alt="Mortis">
+            <p>
+                Вбивці (Асасини) – швидкі і мобільні, наносять багато шкоди на короткій дистанції. Наприклад: Leon, Crow, Mortis.
+            </p>
+        </div>
+
+        <div class="brawler-category">
+            <img src="images/poco.jpg" alt="Poco">
+            <img src="images/gene.jpg" alt="Gene">
+            <img src="images/sprout.jpg" alt="Sprout">
+            <p>
+                Підтримка (Сапорти) – лікують союзників або підсилюють команду. Наприклад: Poco, Gene, Sprout.
+            </p>
+        </div>
+
+        <div class="brawler-category">
+            <img src="images/barley.jpg" alt="Barley">
+            <img src="images/dynamike.jpg" alt="Dynamike">
+            <img src="images/grom.jpg" alt="Grom">
+            <p>
+                Контроль/Кидачі – атакують через стіни та керують зоною бою. Наприклад: Barley, Dynamike, Grom.
+            </p>
+        </div>
+
+        <div class="brawler-category">
+            <img src="images/shelly.jpg" alt="Shelly">
+            <img src="images/colt.jpg" alt="Colt">
+            <img src="images/nita.jpg" alt="Nita">
+            <p>
+                Універсали – збалансовані бійці, які добре працюють у різних ситуаціях. Наприклад: Shelly, Colt, Nita.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Бравлери відкриваються поступово через Brawl Pass, коробки або за ігрові ресурси. У грі регулярно з’являються нові персонажі з унікальними механіками.
+        </p>
+    </footer>
+</body>
+</html>
